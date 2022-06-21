@@ -1,37 +1,33 @@
 
-
-
-
 .body {
     background-color: #FFFFFF;
-    
-
-
-
 }
 
 
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
 
 a {
     display: inline-block;
 }
 
-*,
-::before
-::after {
-    box-sizing: border-box;
+
+/* layaouts */
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    width: 100%;
+
 }
-
-
-
 
 ul li {
     list-style-type: none;
     padding-left: 0;
 }
-
-
-
 
 
 
@@ -46,8 +42,6 @@ ul li {
     letter-spacing: 0.03em;
     color: #000000;
     text-decoration: none;
-
-
 }
 
 .logo-studio {   
@@ -61,8 +55,6 @@ ul li {
 
 }
 
-
-
 .menu-link {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
@@ -71,10 +63,7 @@ ul li {
     letter-spacing: 0.02em;
     color: #212121;
     text-decoration: none;
-    
-
-
-
+   
 }
 
 .menu-item {
@@ -95,7 +84,6 @@ ul li {
     color: #757575;
     text-decoration: none;
 
-
 }
 
 .contact-type:hover {
@@ -105,8 +93,7 @@ ul li {
 }
 
 /* Шапка */
-.hat {
-    
+.hero {    
     background-color: #2F303A;
 
 }
@@ -121,8 +108,8 @@ ul li {
     letter-spacing: 0.06em;
     text-transform: uppercase;    
     color: #FFFFFF;
+    max-width: 696px;
     
-
 }
 
 
@@ -143,7 +130,6 @@ ul li {
     border-radius: 0.1em;
     cursor: pointer;
     text-decoration:none;
-
 
 }
 
@@ -202,8 +188,6 @@ ul li {
 
 }
 
-
-
 .name {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -214,7 +198,6 @@ ul li {
     color: #212121;
   
 }
-
 
 .job-title { 
     font-family: 'Roboto', sans-serif;
@@ -246,9 +229,7 @@ ul li {
     font-size: 18px;
     line-height: 2;           
     letter-spacing: 0.06em;    
-    color: #212121;  
-    
-    
+    color: #212121;         
 
 }
 
@@ -315,9 +296,7 @@ ul li {
 
 }
 
-
-
- .logo1 {
+.logo1 {
     font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 700;
