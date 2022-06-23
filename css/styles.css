@@ -21,6 +21,10 @@ ul li {
     padding-left: 0;
 }
 
+section {
+    margin-bottom: 94px;
+}
+
 
 
 
@@ -38,11 +42,18 @@ ul li {
        
 }
 
+.page {
+    border-bottom: 1px solid #ECECEC;
+
+}
+
+
 
 .header-inner {
     display: flex;        
     height: 80px;
     align-items: center;
+    
     
 }
 
@@ -204,10 +215,14 @@ ul li {
 .button-menu {
     display: flex;
     justify-content: center;
-    
-    
-    
+    gap: 8px;     
 
+}
+
+
+.button-list {
+    margin-top: 94px;
+    margin-bottom: 50px;
 }
 
 /* Особенности */
@@ -224,46 +239,49 @@ ul li {
     color: #212121;
 }
 
-.text {
+.specific-text {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: 0.03em;
+    line-height: 24px;    
+    letter-spacing: 0.03em;    
     color: #757575;
+    margin-bottom: 0%;
+    margin-top: 0%;
 }
 
-.specific {
-    margin-top: 94px;
-    margin-bottom: 94px;
-   
 
-}
+
+
 .title-text {
     display: flex;
+    justify-content: space-between;      
     padding-left: 0;
     margin-top: 0;
-    margin-bottom: 0;
-    
-    
-
-           
-
+    margin-bottom: 0%;
+    gap: 30px;    ;
+  
 }
 
 
 
 
 
+
+.title {
+    margin-top: 0;
+    margin-bottom: 10px;
+    
+
+
+}
 
 
 /* Чем мы занимаемся */
 
 
-.occupation {
-    margin-bottom: 94px;
-} 
+
 
 .work-position {
     font-family: 'Roboto', sans-serif;
@@ -326,6 +344,8 @@ ul li {
     line-height: 1.2;    
     letter-spacing: 0.03em;    
     color: #212121;
+    margin-bottom: 10px;
+    margin-top: 30px;
   
 }
 
@@ -337,6 +357,7 @@ ul li {
     line-height: 1.2;    
     letter-spacing: 0.03em;    
     color: #757575;
+    margin-top: 10px;
 }
 
 .comand-card {    
@@ -359,9 +380,32 @@ ul li {
     font-size: 18px;
     line-height: 2;           
     letter-spacing: 0.06em;    
-    color: #212121;         
+    color: #212121;
+    margin-left: 24px;
+    margin-top: 20px;
+    margin-bottom: 4px;
+    
+  
+    
+         
 
 }
+
+
+
+.list-team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 0%;  
+    gap: 30px;
+
+    
+    
+
+}
+
+
 
 .text {
     font-family: 'Roboto', sans-serif;
@@ -371,6 +415,9 @@ ul li {
     line-height: 1.9;       
     letter-spacing: 0.03em;    
     color: #757575;
+    margin-left: 24px;
+    margin-top: 0;
+    
         
 }
 
@@ -380,6 +427,7 @@ ul li {
     left: 215px;
     top: 1130px;
     border: 1px solid #EEEEEE;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
     
 }
 /* Кнопки */
@@ -415,19 +463,19 @@ ul li {
    
 }
 
-.footer-inner {
-    
 
-    
-    
-}
 
 .footer-contacts {
     padding-left: 0;
-    margin-top: 20px;    
-
-
+    margin-top: 20px;
+    margin-bottom: 0%;
+    
 }
+
+.contact-link {
+    row-gap: 9px;
+}
+
 
 .home {
     font-family: 'Roboto', sans-serif;
@@ -438,6 +486,7 @@ ul li {
     letter-spacing: 0.03em;    
     color: #FFFFFF;
     text-decoration: none;
+    margin-bottom: 9px;
 
 }
 
@@ -467,7 +516,7 @@ ul li {
 }
 
 
-.contact-type1 {
+.footer-contact-mail {
     font-family: 'Roboto', sans-serif; 
     font-style: normal;
     font-weight: 400;
@@ -476,4 +525,26 @@ ul li {
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
+    margin-bottom: 9px;
+
 }
+
+
+.footer-contact-tel {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 2;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    
+
+}
+
+
+.footer-contact-type:last-child {    
+    margin-top: 0;
+
+}    
