@@ -1,6 +1,7 @@
 
 .body {
     background-color: #FFFFFF;
+    
 }
 
 
@@ -11,22 +12,38 @@
 }
 
 a {
-    display: inline-block;
+    display: flex;
 }
 
-
-/* layaouts */
-
-.container {
-    max-width: 1170px;
-    margin: 0 auto;
-    width: 100%;
-
-}
 
 ul li {
     list-style-type: none;
     padding-left: 0;
+}
+
+
+
+
+/* layaouts */
+
+.header {
+    width: 1600px;
+
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    padding-top: 0%;         
+       
+}
+
+
+.header-inner {
+    display: flex;        
+    height: 80px;
+    align-items: center;
+    
 }
 
 
@@ -42,6 +59,21 @@ ul li {
     letter-spacing: 0.03em;
     color: #000000;
     text-decoration: none;
+    margin-right: 93px;
+    
+    
+    
+}
+
+
+.header-list {
+    padding-left: 0;
+}
+
+
+.header-contacts {
+    padding-left: 331px;
+    
 }
 
 .logo-studio {   
@@ -52,6 +84,9 @@ ul li {
     letter-spacing: 0.03em;
     color: #2196F3;
     text-decoration: none;
+    
+    
+    
 
 }
 
@@ -63,11 +98,23 @@ ul li {
     letter-spacing: 0.02em;
     color: #212121;
     text-decoration: none;
-   
+    margin-left: 0;
+    
+    
+    
 }
 
+
+
 .menu-item {
-    display: inline-block;
+    display: inline-flex;
+    margin-right: 50px;
+
+}
+
+.menu-item:last-child {
+    margin-right: 0;
+
 }
 
 
@@ -82,19 +129,33 @@ ul li {
     line-height: 1.1;
     letter-spacing: 0.02em;
     color: #757575;
-    text-decoration: none;
+    text-decoration: none;    
+  
 
 }
 
 .contact-type:hover {
     color: #2196F3;
-
-
 }
 
+
+.header-contact-link {
+    display: inline-flex;
+    margin-right: 50px;
+   
+    
+}
+
+
+.header-contact-link:last-child {    
+    margin-right: 0;
+
+}   
 /* Шапка */
 .hero {    
     background-color: #2F303A;
+    height: 600px;
+    
 
 }
 
@@ -109,6 +170,10 @@ ul li {
     text-transform: uppercase;    
     color: #FFFFFF;
     max-width: 696px;
+    margin: 0 auto;    
+    margin-bottom: 30px;
+    padding-top: 200px;
+   
     
 }
 
@@ -130,6 +195,18 @@ ul li {
     border-radius: 0.1em;
     cursor: pointer;
     text-decoration:none;
+    margin: 0 auto;
+   
+
+}
+
+
+.button-menu {
+    display: flex;
+    justify-content: center;
+    
+    
+    
 
 }
 
@@ -157,8 +234,36 @@ ul li {
     color: #757575;
 }
 
+.specific {
+    margin-top: 94px;
+    margin-bottom: 94px;
+   
+
+}
+.title-text {
+    display: flex;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    
+    
+
+           
+
+}
+
+
+
+
+
+
 
 /* Чем мы занимаемся */
+
+
+.occupation {
+    margin-bottom: 94px;
+} 
 
 .work-position {
     font-family: 'Roboto', sans-serif;
@@ -167,14 +272,27 @@ ul li {
     line-height: 1.2;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: #212121; 
+    margin-bottom: 50px;
+    margin-top: 0;  
+        
 
 }
+
+.work {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0;
+
+
+}
+
 
 /* Команда */
 
 .team {
     background-color: #F5F4FA;
+    height: 648px;
 }
 
 .team-list {
@@ -185,8 +303,20 @@ ul li {
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
+    padding-top: 94px;
+    margin: 0 auto;
 
 }
+
+.all-team {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0;
+    margin-top: 50px;
+    margin-bottom: 0;
+    
+}
+
 
 .name {
     font-family: 'Roboto', sans-serif;
@@ -281,8 +411,23 @@ ul li {
 
 .footer {     
     background: #2F303A;
- }
+    height: 252px;
+   
+}
 
+.footer-inner {
+    
+
+    
+    
+}
+
+.footer-contacts {
+    padding-left: 0;
+    margin-top: 20px;    
+
+
+}
 
 .home {
     font-family: 'Roboto', sans-serif;
@@ -296,7 +441,7 @@ ul li {
 
 }
 
-.logo1 {
+.footer-logo {
     font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -305,11 +450,12 @@ ul li {
     letter-spacing: 0.03em;
     color: #FFFFFF;     
     text-decoration: none;
+    padding-top: 60px;
 
 
  }
 
-.logo-studio1 {
+.footer-logo-studio {
     font-family: 'Raleway', sans-serif;     
     font-weight: 700;
     font-size: 26px;
