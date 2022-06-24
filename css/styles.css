@@ -228,6 +228,7 @@ section {
 /* Особенности */
 
 
+
 .title {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -255,12 +256,13 @@ section {
 
 
 .title-text {
-    display: flex;
-    justify-content: space-between;      
+    display: flex;    
+    justify-content: space-between;
     padding-left: 0;
     margin-top: 0;
-    margin-bottom: 0%;
-    gap: 30px;    ;
+    margin-bottom: 0;    
+    gap: 30px;
+       
   
 }
 
