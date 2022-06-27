@@ -5,6 +5,7 @@
 }
 
 
+
 *,
 *::before,
 *::after {
@@ -22,7 +23,9 @@ ul li {
 }
 
 section {
-    margin-bottom: 94px;
+    padding-bottom: 94px;
+    padding-top: 94px;
+    margin: 0 auto;
 }
 
 
@@ -30,15 +33,10 @@ section {
 
 /* layaouts */
 
-.header {
-    width: 1600px;
-
-}
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    width: 100%;
-    padding-top: 0%;         
+          
        
 }
 
@@ -79,6 +77,7 @@ section {
 
 .header-list {
     padding-left: 0;
+    margin: 0;
 }
 
 
@@ -183,7 +182,7 @@ section {
     max-width: 696px;
     margin: 0 auto;    
     margin-bottom: 30px;
-    padding-top: 200px;
+    padding-top: 106px;
    
     
 }
@@ -207,6 +206,7 @@ section {
     cursor: pointer;
     text-decoration:none;
     margin: 0 auto;
+    
    
 
 }
@@ -215,15 +215,14 @@ section {
 .button-menu {
     display: flex;
     justify-content: center;
-    gap: 8px;     
+    margin: 0%;
+    gap: 8px;
+    margin-bottom: 50px;     
 
 }
 
 
-.button-type {
-    margin-top: 94px;
-    margin-bottom: 50px;
-}
+
 
 /* Особенности */
 
@@ -238,6 +237,8 @@ section {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #212121;
+    margin-top: 0;
+    margin-bottom: 10px;
 }
 
 .specific-text {
@@ -250,39 +251,32 @@ section {
     color: #757575;
     margin-bottom: 0%;
     margin-top: 0%;
+    
 }
+
 
 
 
 
 .title-text {
-    display: flex;    
-    justify-content: space-between;
-    padding-left: 0;
+    display: flex; 
+    justify-content: space-between; 
+    padding: 0;
     margin-top: 0;
-    margin-bottom: 0;    
-    gap: 30px;
-       
-  
-}
-
-
-
-
-
-
-.title {
-    margin-top: 0;
-    margin-bottom: 10px;
+    margin-bottom: 0%;    
+    gap:30px;
     
-
-
 }
+
 
 
 /* Чем мы занимаемся */
 
-
+.occupation {
+    padding-top: 0;
+    padding-left: 15px;    
+    padding-right: 15px;
+}
 
 
 .work-position {
@@ -303,6 +297,7 @@ section {
     display: flex;
     justify-content: space-between;
     padding-left: 0;
+    margin: 0%;
 
 
 }
@@ -322,8 +317,7 @@ section {
     line-height: 1.2;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
-    padding-top: 94px;
+    color: #212121;    
     margin: 0 auto;
 
 }
@@ -375,6 +369,11 @@ section {
 
 /* Все */
 
+.portfolio {
+    padding-top: 0%;
+}
+
+
 .list {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -383,9 +382,8 @@ section {
     line-height: 2;           
     letter-spacing: 0.06em;    
     color: #212121;
-    margin-left: 24px;
-    margin-top: 20px;
-    margin-bottom: 4px;
+    margin: 0;
+   
     
   
     
@@ -401,6 +399,7 @@ section {
     justify-content: space-between;
     padding-left: 0%;  
     gap: 30px;
+    margin: 0;
 
     
     
@@ -415,10 +414,9 @@ section {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.9;       
-    letter-spacing: 0.03em;    
-    color: #757575;
-    margin-left: 24px;
-    margin-top: 0;
+    letter-spacing: 0.03em;
+    margin: 0;    
+    
     
         
 }
@@ -429,9 +427,15 @@ section {
     left: 215px;
     top: 1130px;
     border: 1px solid #EEEEEE;
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+    
     
 }
+
+
+.portfolio-card-list {
+    padding: 20px 24px;
+}
+
 /* Кнопки */
 
 
@@ -462,6 +466,9 @@ section {
 .footer {     
     background: #2F303A;
     height: 252px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 215px ;
    
 }
 
@@ -474,9 +481,7 @@ section {
     
 }
 
-.contact-link {
-    row-gap: 9px;
-}
+
 
 
 .home {
@@ -488,7 +493,7 @@ section {
     letter-spacing: 0.03em;    
     color: #FFFFFF;
     text-decoration: none;
-    margin-bottom: 9px;
+    
 
 }
 
@@ -500,8 +505,7 @@ section {
     line-height: 1.2;
     letter-spacing: 0.03em;
     color: #FFFFFF;     
-    text-decoration: none;
-    padding-top: 60px;
+    text-decoration: none;    
 
 
  }
@@ -527,7 +531,7 @@ section {
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
-    margin-bottom: 9px;
+    
 
 }
 
