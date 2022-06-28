@@ -25,7 +25,7 @@ ul li {
 section {
     padding-bottom: 94px;
     padding-top: 94px;
-    margin: 0 auto;
+    margin: 0;
 }
 
 
@@ -34,8 +34,9 @@ section {
 /* layaouts */
 
 .container {
-    max-width: 1200px;
+    max-width: 1170px;
     margin: 0 auto;
+    
           
        
 }
@@ -56,8 +57,6 @@ section {
 }
 
 
-
-
 /* Шапка сайта */
 
 .logo {
@@ -68,7 +67,7 @@ section {
     letter-spacing: 0.03em;
     color: #000000;
     text-decoration: none;
-    margin-right: 93px;
+    padding-right: 93px;
     
     
     
@@ -78,11 +77,16 @@ section {
 .header-list {
     padding-left: 0;
     margin: 0;
+    
 }
 
 
 .header-contacts {
-    padding-left: 331px;
+    padding-left: 319px;
+    margin: 0;
+       
+    
+    
     
 }
 
@@ -118,12 +122,12 @@ section {
 
 .menu-item {
     display: inline-flex;
-    margin-right: 50px;
+    padding-right: 50px;
 
 }
 
 .menu-item:last-child {
-    margin-right: 0;
+    padding-right: 0;
 
 }
 
@@ -151,20 +155,21 @@ section {
 
 .header-contact-link {
     display: inline-flex;
-    margin-right: 50px;
-   
+    padding-right: 50px;      
     
 }
 
 
 .header-contact-link:last-child {    
-    margin-right: 0;
+    padding-right: 0;
 
 }   
 /* Шапка */
 .hero {    
     background-color: #2F303A;
     height: 600px;
+    padding-top: 200px;
+    padding-bottom: 200px;
     
 
 }
@@ -182,7 +187,7 @@ section {
     max-width: 696px;
     margin: 0 auto;    
     margin-bottom: 30px;
-    padding-top: 106px;
+   
    
     
 }
@@ -217,7 +222,8 @@ section {
     justify-content: center;
     margin: 0%;
     gap: 8px;
-    margin-bottom: 50px;     
+    margin-bottom: 50px;
+    padding-left: 0%;     
 
 }
 
@@ -267,6 +273,12 @@ section {
     gap:30px;
     
 }
+
+
+.title-text-list {
+    width: 270px;
+}
+
 
 
 
@@ -415,6 +427,7 @@ section {
     font-size: 16px;
     line-height: 1.9;       
     letter-spacing: 0.03em;
+    color: #757575;
     margin: 0;    
     
     
@@ -464,11 +477,10 @@ section {
  /* Подвал */
 
 .footer {     
-    background: #2F303A;
-    height: 252px;
+    background: #2F303A;    
     padding-top: 60px;
     padding-bottom: 60px;
-    padding-left: 215px ;
+    
    
 }
 
@@ -550,7 +562,12 @@ section {
 }
 
 
-.footer-contact-type:last-child {    
-    margin-top: 0;
+.footer-contacts-list {
+    margin-bottom: 9px;
+}
 
-}    
+
+.footer-contact-mail {
+    margin-bottom: 9px;
+}
+
