@@ -67,7 +67,7 @@ section {
     letter-spacing: 0.03em;
     color: #000000;
     text-decoration: none;
-    padding-right: 93px;
+    margin-right: 93px;
     
     
     
@@ -82,8 +82,9 @@ section {
 
 
 .header-contacts {
-    padding-left: 319px;
-    margin: 0;
+    padding-left: 0;
+    margin-left: 319px;
+
        
     
     
@@ -122,12 +123,12 @@ section {
 
 .menu-item {
     display: inline-flex;
-    padding-right: 50px;
+    margin-right: 50px;
 
 }
 
 .menu-item:last-child {
-    padding-right: 0;
+    margin-right: 0;
 
 }
 
@@ -155,13 +156,13 @@ section {
 
 .header-contact-link {
     display: inline-flex;
-    padding-right: 50px;      
+    margin-right: 50px;      
     
 }
 
 
 .header-contact-link:last-child {    
-    padding-right: 0;
+    margin-right: 0;
 
 }   
 /* Шапка */
